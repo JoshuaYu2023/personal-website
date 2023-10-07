@@ -8,7 +8,7 @@
     <link href="../dist/output.css" rel="stylesheet">
     <title>PWP</title>
 </head>
-<body class="bg-gradient-to-b from-white to-green-600">
+<body class="bg-cover text-white" style="background-image: url('background.jpg')">
 
   <nav class="container mx-auto">
     <section class="p-4 text-center">
@@ -17,7 +17,7 @@
   </nav>
 
   <section>
-    <div class="container mx-auto md:flex gap-12 max-md:space-y-12 border-2 border-black p-2">
+    <div class="container mx-auto my-4 md:flex gap-12 max-md:space-y-12 border-2 border-white p-2">
         <div class="max-md:px-16">
             <img src="me.jpg" alt="my wedding photo" class="rounded-lg w-80 h-80">
         </div>
@@ -28,7 +28,7 @@
     </div>
   </section>
 
-  <section class="container mx-auto p-10 flex">
+  <section class="container mx-auto my-4 p-10 md:flex border-white border-2 py-10">
       <div>
           <h2 class="text-lg font-bold text-center">MUSIC</h2>
           <div class="carousel w-full">
@@ -59,14 +59,14 @@
       </div>
   </section>
 
-<section class="flex justify-evenly mx-auto my-4">
-    <div class="overflow-x-auto">
+<section class="container md:flex md:justify-evenly mx-auto my-4 border-white border-2 py-10">
+    <div>
         <h2 class="text-lg font-bold text-center">ANIME</h2>
         <table class="table">
             <tbody>
             <tr>
-                <td>One Piece</td>
-                <td>Fullmetal Alchemist: Brotherhood</td>
+                <td> <a href="https://en.wikipedia.org/wiki/One_Piece" target="_blank" rel="noreferrer noopener"><img src="one-piece" alt="One Piece" class="w-40 h-40 gap-4"></a> </td>
+                <td> <a href="https://en.wikipedia.org/wiki/Fullmetal_Alchemist:_Brotherhood" target="_blank" rel="noreferrer noopener"><img src="full-metal" alt="Fullmetal Alchemist: Brotherhood" class="w-40 h-40 gap-4"></a> </td>
                 <td>Jujutsu Kaisen</td>
             </tr>
             <tr>
@@ -82,25 +82,25 @@
             </tbody>
         </table>
     </div>
-        <div>
-            <h2 class="text-lg font-bold">Contact Me! I would love to hear from you!</h2>
-            <div class="p-4">
-                <label for="subject">
-                    <input type="text" id="subject" class="block p-3 w-40 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500" placeholder="Name" required>
-                </label>
-            </div>
-            <div class="p-4">
-                <label for="email">
-                    <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-40 p-2.5" placeholder="Email here!" required>
-                </label>
-            </div>
-            <div class="p-4">
-                <label for="message">
-                    <textarea id="message" rows="6" class="block p-2.5 w-40 text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
-                </label>
-            </div>
-            <button type="submit" class="bg-green-950 rounded-full text-white p-4 my-4">Send!</button>
+    <div class="py-10">
+        <h2 class="text-lg font-bold">Contact Me! I would love to hear from you!</h2>
+        <div class="p-4">
+            <label for="subject">
+                <input type="text" id="subject" class="block p-3 w-40 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500" placeholder="Name" required>
+            </label>
         </div>
+        <div class="p-4">
+            <label for="email">
+                <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-40 p-2.5" placeholder="Email here!" required>
+            </label>
+        </div>
+        <div class="p-4">
+            <label for="message">
+                <textarea id="message" rows="6" class="block p-2.5 w-40 text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+            </label>
+        </div>
+            <button type="submit" class="bg-green-950 rounded-full text-white p-4 my-4">Send!</button>
+    </div>
 </section>
 
 
