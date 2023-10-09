@@ -11,32 +11,32 @@
 <body class="bg-black text-white">
 <!--style="background-image: url('images/background.jpg'-->
 
-
-  <nav class="container mx-auto">
+  <div class="container mx-auto">
     <section class="p-4 text-center">
         <h1 class="sm:text-sm md:text-lg">Welcome! This is my personal website project that I made while taking CNM Ingenuity's Deep Dive Fullstack coding Bootcamp. Allow me to show you some of what I have learned!</h1>
     </section>
-  </nav>
+  </div>
 
   <section>
     <div class="container mx-auto my-4 md:flex gap-12 max-md:space-y-12 border-2 border-white p-2">
         <div class="max-md:px-16">
-            <img src="images/me.jpg" alt="my wedding photo" class="rounded-lg w-80 h-80">
+            <img src="images/me.jpg" alt="my wedding photo" class="rounded-lg sm: w-40 sm:h-40 md:w-64 md:h-64">
         </div>
         <div class="basis-5/6 max-md:px-8">
-            <h1 class="text-lg font-bold p-4">About Me</h1>
+            <h1 class="sm:text-sm md:text-lg font-bold p-4">About Me</h1>
             <p class="p-4">Hello! My name is Joshua Yu. I was born in Albuquerque in 2001, and grew up in the Northeast Heights area. I was homeschooled from kindergarten through high-school, and I attended Rio Grande Enrichment Studies as a part of my high-school experience. During high-school, I worked as an independent "landscaper" for friends and family, mostly consisting of basic yard work/cleanup. I also attended CNM as a dual credit student, and got about halfway through to an associates degree in communications. After graduating high-school, I worked at Dion's for 4 years, working my way up to becoming the Assistant Catering Manager.<br>I have many interests, but the ones I want to tell you about are my love for music, DND, and anime. My love for music started when I first learned the piano and violin at a young age. My love for DND started about 4 years ago, as it became a new way I could spend time with friends on a cooperative project. And my love for anime has been around since I was 5, and it has grown in the last few years as I have watched more and more.</p>
         </div>
     </div>
   </section>
 
-  <section class="container mx-auto my-4 p-10 md:flex border-white border-2 py-10">
+  <section class="container mx-auto my-4 p-10 border-white border-2 py-10">
       <div>
           <h2 class="text-lg font-bold text-center">MUSIC</h2>
           <div class="carousel w-full">
               <div id="item1" class="carousel-item w-full">
                   <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7oiHCfqJHjtaq3JbJhRk90?utm_source=generator&theme=0" width="40%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                  <p class="container my-4 text-sm pl-7 pr-7">This is my playlist that I'm constantly editing, adding songs I like and removing others to create the perfect mood for me. It's made up of all sorts of genres, and never fails to reset my mood to get me out of any funk.</p>
+                 <p class="my-4 text-sm pl-7 pr-7">This is my playlist that I'm constantly editing, adding songs I like and removing others to create the perfect mood for me. It's made up of all sorts of genres, and never fails to reset my mood to get me out of any funk.</p>
+
               </div>
               <div id="item2" class="carousel-item w-full">
                   <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0uT4uy3DYMzs3h9wkhAbVY?utm_source=generator&theme=0" width="40%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -54,7 +54,7 @@
           </div>
       </div>
       <div>
-          <div>
+          <div class="">
              <h2 class="text-lg font-bold text-center">DND</h2>
               <p>DND is one of my more recent enjoyments, as I only started getting into it about 4 years ago. I enjoy it because it's a cooperative story. I enjoy being the one who creates the outline of the story because it gives me a chance to see what people would do in different situations. I also enjoy playing, and have played multiple one-shots as different characters. It provides a lot of variety in character choice, and it is an outlet of creation for me and my group. Creating characters, stories, and worlds is a very fun past-time, and plus, hearing the dice click together when rolling them is a very euphoric sound.</p>
           </div>
@@ -86,22 +86,24 @@
     </div>
     <div class="py-10">
         <h2 class="text-lg font-bold">Contact Me! I would love to hear from you!</h2>
-        <div class="p-4">
-            <label for="subject">
-                <input type="text" id="subject" class="block p-3 w-40 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm" placeholder="Name" required>
-            </label>
-        </div>
-        <div class="p-4">
-            <label for="email">
-                <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-40 p-2.5" placeholder="Email here!" required>
-            </label>
-        </div>
-        <div class="p-4">
-            <label for="message">
-                <textarea id="message" rows="6" class="block p-2.5 w-40 text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300" placeholder="Leave a comment..."></textarea>
-            </label>
-        </div>
+        <form> <!-- action="mailto:joshayu17@outlook.com" method="post" enctype="text/plain" -->
+            <div class="p-4">
+                <label for="subject">
+                    <input type="text" id="subject" class="block p-3 w-40 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm" placeholder="Name" required>
+                </label>
+            </div>
+            <div class="p-4">
+                <label for="email">
+                    <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-40 p-2.5" placeholder="Email here!" required>
+                </label>
+            </div>
+            <div class="p-4">
+                <label for="message">
+                    <textarea id="message" rows="6" class="block p-2.5 w-40 text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300" placeholder="Leave a comment..."></textarea>
+                </label>
+            </div>
             <button type="submit" class="bg-green-500 hover:bg-green-950 rounded-full text-white p-4 my-4">Send!</button>
+        </form>
     </div>
 </section>
 
