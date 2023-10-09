@@ -1440,6 +1440,10 @@ html {
   height: 20rem;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .w-40 {
   width: 10rem;
 }
@@ -1450,6 +1454,10 @@ html {
 
 .w-full {
   width: 100%;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .basis-5\/6 {
