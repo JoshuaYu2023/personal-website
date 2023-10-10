@@ -29,23 +29,28 @@
     </div>
   </section>
 
-<!-- TODO: make flex work better, and put text under iframe in carousel -->
-
-  <section class="container mx-auto my-4 p-10 border-white border-2 py-10">
+<div class="flex">
+  <section class="container mx-auto my-4 py-4 border-white border-2">
       <div>
-          <h2 class="text-lg font-bold text-center">MUSIC</h2>
+          <h2 class="text-lg font-bold text-center pb-4">MUSIC</h2>
           <div class="carousel w-full">
-              <div id="item1" class="carousel-item w-full">
+              <div id="item1" class="carousel-item w-full flex-col items-center text-center">
                   <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7oiHCfqJHjtaq3JbJhRk90?utm_source=generator&theme=0" width="40%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                 <p class="my-4 text-sm pl-7 pr-7">This is my playlist that I'm constantly editing, adding songs I like and removing others to create the perfect mood for me. It's made up of all sorts of genres, and never fails to reset my mood to get me out of any funk.</p>
+                  <div class="container my-4 text-sm w-2/5">
+                      <p>This is my playlist that I'm constantly editing, adding songs I like and removing others to create the perfect mood for me. It's made up of all sorts of genres, and never fails to reset my mood to get me out of any funk.</p>
+                  </div>
               </div>
-              <div id="item2" class="carousel-item w-full">
+              <div id="item2" class="carousel-item w-full flex-col items-center text-center">
                   <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0uT4uy3DYMzs3h9wkhAbVY?utm_source=generator&theme=0" width="40%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                  <p class="container my-4 text-sm pl-7 pr-7">My favorite instrumental artist is Samuel Kim. He takes certain soundtracks from film, TV, anime, and games amd turns them into Epic/Cinematic Arrangements.</p>
+                  <div class="container my-4 text-sm w-2/5">
+                      <p>My favorite instrumental artist is Samuel Kim. He takes certain soundtracks from film, TV, anime, and games amd turns them into Epic/Cinematic Arrangements.</p>
+                  </div>
               </div>
-              <div id="item3" class="carousel-item w-full">
+              <div id="item3" class="carousel-item w-full flex-col items-center text-center">
                   <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/35kDv86L9VuUoj29YTHmE6?utm_source=generator&theme=0" width="40%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                  <p class="container my-4 text-sm pl-7 pr-7">My favorite song has always changed over the years, but currently it is this song.</p>
+                  <div class="container my-4 text-sm w-2/5">
+                      <p>My favorite song has always changed over the years, but currently it is this song.</p>
+                  </div>
               </div>
           </div>
           <div class="flex justify-center w-full py-2 gap-2">
@@ -54,6 +59,8 @@
               <a href="#item3" class="btn btn-xs">3</a>
           </div>
       </div>
+  </section>
+  <section class="container mx-auto my-4 p-10 border-white border-2 py-10">
       <div>
           <div class="">
              <h2 class="text-lg font-bold text-center">DND</h2>
@@ -61,6 +68,7 @@
           </div>
       </div>
   </section>
+</div>
 
 <!-- TODO: make photos wiggle -->
 
