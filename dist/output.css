@@ -1420,6 +1420,27 @@ html {
   margin-bottom: 1rem;
 }
 
+.mx-32 {
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.ml-32 {
+  margin-left: 8rem;
+}
+
+.mr-32 {
+  margin-right: 8rem;
+}
+
 .block {
   display: block;
 }
@@ -1444,16 +1465,16 @@ html {
   width: 2.5rem;
 }
 
+.w-2\/5 {
+  width: 40%;
+}
+
 .w-40 {
   width: 10rem;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-2\/5 {
-  width: 40%;
 }
 
 .basis-5\/6 {
@@ -1474,6 +1495,10 @@ html {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
 }
 
 .gap-12 {
@@ -1563,22 +1588,9 @@ html {
   padding-bottom: 0.5rem;
 }
 
-.px-28 {
-  padding-left: 7rem;
-  padding-right: 7rem;
-}
-
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.pl-7 {
-  padding-left: 1.75rem;
-}
-
-.pr-7 {
-  padding-right: 1.75rem;
 }
 
 .pb-4 {
