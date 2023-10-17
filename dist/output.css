@@ -1480,6 +1480,20 @@ html {
   flex-basis: 83.333333%;
 }
 
+@keyframes wiggle-more {
+  0%, 100% {
+    transform: rotate(-12deg);
+  }
+
+  50% {
+    transform: rotate(12deg);
+  }
+}
+
+.animate-wiggle-more {
+  animation: wiggle-more 1s both;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -1597,6 +1611,10 @@ html {
 
 .outline {
   outline-style: solid;
+}
+
+.animate-infinite {
+  animation-iteration-count: infinite;
 }
 
 .hover\:bg-green-950:hover {
