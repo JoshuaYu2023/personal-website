@@ -1526,6 +1526,20 @@ html {
   animation: bounce 1s infinite;
 }
 
+@keyframes rotate-x {
+  0% {
+    transform: rotateX(360deg);
+  }
+
+  100% {
+    transform: rotateX(0);
+  }
+}
+
+.animate-rotate-x {
+  animation: rotate-x 1s both;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -1647,6 +1661,10 @@ html {
 
 .animate-normal {
   animation-direction: normal;
+}
+
+.animate-reverse {
+  animation-direction: reverse;
 }
 
 .animate-infinite {
