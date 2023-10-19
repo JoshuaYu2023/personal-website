@@ -1494,6 +1494,22 @@ html {
   animation: wiggle-more 1s both;
 }
 
+@keyframes fade-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-2rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-down {
+  animation: fade-down 1s both;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -1613,8 +1629,24 @@ html {
   outline-style: solid;
 }
 
+.animate-normal {
+  animation-direction: normal;
+}
+
 .animate-infinite {
   animation-iteration-count: infinite;
+}
+
+.animate-once {
+  animation-iteration-count: 1;
+}
+
+.animate-thrice {
+  animation-iteration-count: 3;
+}
+
+.animate-ease-linear {
+  animation-timing-function: linear;
 }
 
 .hover\:bg-green-950:hover {
