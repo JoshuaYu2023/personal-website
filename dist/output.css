@@ -1419,6 +1419,10 @@ html {
   width: 5rem;
 }
 
+.w-3\/5 {
+  width: 60%;
+}
+
 .max-w-screen-md {
   max-width: 768px;
 }
@@ -1659,6 +1663,11 @@ body {
 }
 
 @media (min-width: 768px) {
+  .md\:my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
   .md\:flex {
     display: flex;
   }
