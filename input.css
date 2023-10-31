@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-    background-image: url("./hexagon-bg.jpg");
+    background-image: url("/dist/hexagon-bg.jpg");
 }
