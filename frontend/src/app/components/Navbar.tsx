@@ -14,7 +14,7 @@ export function Navbar() {
                                 Portfolio
                             </summary>
                             <ul className={"dropdown-content z-10 rounded-lg p-2 bg-base-100"}>
-                                <li><Link href={'/'}>About Me</Link></li>
+                                <li><Link href={'/about-me'}>About Me</Link></li>
                                 <li><Link href={'/'}>Color Picker</Link></li>
                                 <li><Link href={'/'}>Shopping List</Link></li>
                                 <li><Link href={'/'}>JavaScript Events</Link></li>

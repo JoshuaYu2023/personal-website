@@ -3,8 +3,8 @@ import './globals.css'
 
 
 export const metadata: Metadata = {
-    title: 'Title Goes Here',
-    description: 'description goes here',
+    title: 'Personal Website',
+    description: 'A personal portfolio website created using React, TailwindCSS, and DaisyUI',
 }
 
 type RootLayoutProps = {
@@ -14,7 +14,7 @@ type RootLayoutProps = {
 export default function RootLayout(props : RootLayoutProps) {
     const { children } = props
     return (
-        <html data-theme="light" lang="en">
+        <html data-theme="dark" lang="en">
         <body>{children}</body>
         </html>
     )
