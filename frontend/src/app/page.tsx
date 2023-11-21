@@ -1,5 +1,12 @@
+'use client'
+
+import {Navbar} from "@/app/components/Navbar"
+
 export default function Home() {
     return (
-        <h1>Is this thing?</h1>
+
+        <Navbar />
+
+        // <h1>Is this thing?</h1>
     )
 }
