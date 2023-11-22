@@ -1,13 +1,13 @@
-import Link from "next/link";
+import Link from "next/link"
 
 export function Navbar() {
     return (
-        <div className="navbar mx-auto">
-            <div className="flex-1">
+        <div className={"navbar mx-auto"}>
+            <div className={"flex-1"}>
                 <Link href={'/'} className={'text-xl'}>Home</Link>
             </div>
-            <div className="flex-none">
-                <ul className="menu menu-horizontal px-1">
+            <div className={"flex-none"}>
+                <ul className={"menu menu-horizontal px-1"}>
                     <li>
                         <details className={'dropdown dropdown-end'}>
                             <summary>
