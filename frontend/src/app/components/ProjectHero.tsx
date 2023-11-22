@@ -14,10 +14,10 @@ export function ProjectHero({image, alt, link, title, description}: ProjectHeroP
         <div className={'p-6'}>
             <div className={"hero mx-auto w-full h-auto border-8 border-green-800"}>
                 <div className={"hero-content flex-col lg:flex-row-reverse"}>
-                    <img src={image} className={"max-w-xl rounded-lg"} alt={alt}/>
-                    <div>
+                    <img src={image} className={"max-w-96 max-h-72 rounded-lg"} alt={alt}/>
+                    <div className={'p-4'}>
                         <Link href={link}><h1 className={"text-5xl font-bold"}>{title}</h1></Link>
-                        <p className="py-6">{description}</p>
+                        <p className={"py-6"}>{description}</p>
                     </div>
                 </div>
             </div>

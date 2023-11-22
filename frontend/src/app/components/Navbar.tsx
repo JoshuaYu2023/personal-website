@@ -15,9 +15,9 @@ export function Navbar() {
                             </summary>
                             <ul className={"dropdown-content z-10 rounded-lg p-2 bg-base-100"}>
                                 <li><Link href={'/about-me'}>About Me</Link></li>
-                                <li><Link href={'/'}>Color Picker</Link></li>
-                                <li><Link href={'/'}>Shopping List</Link></li>
-                                <li><Link href={'/'}>JavaScript Events</Link></li>
+                                <li><Link href={'/color-picker'}>Color Picker</Link></li>
+                                <li><Link href={'/shopping-list'}>Shopping List</Link></li>
+                                <li><Link href={'/js-events'}>JavaScript Events</Link></li>
                             </ul>
                         </details>
                     </li>
