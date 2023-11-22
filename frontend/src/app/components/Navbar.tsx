@@ -4,7 +4,7 @@ export function Navbar() {
     return (
         <div className="navbar mx-auto">
             <div className="flex-1">
-                <Link href={'/'}>Home</Link>
+                <Link href={'/'} className={'text-xl'}>Home</Link>
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1">

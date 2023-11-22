@@ -26,7 +26,6 @@ export default function AboutMe() {
                     <ContactForm/>
                 </div>
                 <Footer/>
-                {/*TODO: copy over components from HTML doc. */}
             </div>
         </>
 
