@@ -7,6 +7,7 @@ import {Carousel} from "@/app/about-me/components/Carousel";
 import {DNDHero} from "@/app/about-me/components/DNDHero";
 import {Anime} from "@/app/about-me/components/Anime";
 import {ContactForm} from "@/app/about-me/components/ContactForm";
+import {Footer} from "@/app/about-me/components/Footer";
 
 
 export default function AboutMe() {
@@ -24,6 +25,7 @@ export default function AboutMe() {
                     <Anime/>
                     <ContactForm/>
                 </div>
+                <Footer/>
                 {/*TODO: copy over components from HTML doc. */}
             </div>
         </>
