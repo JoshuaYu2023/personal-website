@@ -3,7 +3,8 @@
 import {Navbar} from "@/app/components/Navbar"
 import {Header} from "@/app/components/Header"
 import {Footer} from "@/app/components/Footer"
-import {Content} from "@/app/js-events/components/FindReplace";
+import {Content} from "@/app/js-events/components/Content"
+
 
 
 
