@@ -5,10 +5,18 @@ export function Content() {
         <section className={'container border-2 border-primary mx-auto px-4'}>
             <div className={'my-4'}>
                 <h1 className={'font-bold italic'}>Find and Replace</h1>
-                <p>One thing you can do with JavaScript is take a sentence or paragraph and find specific words, replace them with something else, and see your new sentence! Let's do that below!</p>
+                <p>One thing you can do with JavaScript is take a sentence or paragraph and find specific words, replace
+                    them with something else, and see your new sentence! Let's do that below!</p>
             </div>
             <div className={'my-4'}>
                 <FindAndReplace/>
+            </div>
+            <div className={'my-4'}>
+                <h1 className={'font-bold italic'}>Shuffle</h1>
+                <p>Another thing you can do with JavaScript is take a sentence or paragraph and shuffle all the words around at the click of a button!</p>
+            </div>
+            <div className={'my-4'}>
+
             </div>
         </section>
     )
