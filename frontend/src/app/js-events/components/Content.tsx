@@ -1,5 +1,6 @@
 import {FindAndReplace} from "@/app/js-events/components/FindReplace";
 import {Shuffle} from "@/app/js-events/components/Shuffle";
+import {Encrypt} from "@/app/js-events/components/Encrypt";
 
 export function Content() {
     return (
@@ -30,7 +31,7 @@ export function Content() {
                     <p>An interesting thing you can do with JavaScript is take a sentence or paragraph and encrypt it. This type of encryption is called ROT13 Encryption. It takes a sentence or paragraph and shifts it 13 places along the alphabet. Try it out!</p>
                 </div>
                 <div className={'my-4'}>
-
+                    <Encrypt/>
                 </div>
             </section>
         </div>
