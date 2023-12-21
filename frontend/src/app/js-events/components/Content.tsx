@@ -24,6 +24,15 @@ export function Content() {
                     <Shuffle/>
                 </div>
             </section>
+            <section>
+                <div className={'my-4'}>
+                    <h1 className={'font-bold italic'}>Encrypt</h1>
+                    <p>An interesting thing you can do with JavaScript is take a sentence or paragraph and encrypt it. This type of encryption is called ROT13 Encryption. It takes a sentence or paragraph and shifts it 13 places along the alphabet. Try it out!</p>
+                </div>
+                <div className={'my-4'}>
+
+                </div>
+            </section>
         </div>
     )
 }
