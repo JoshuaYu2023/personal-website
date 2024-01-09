@@ -5,9 +5,6 @@ import {Header} from "@/app/components/Header"
 import {Footer} from "@/app/components/Footer"
 import {Content} from "@/app/js-events/components/Content"
 
-
-
-
 export default function JavaScriptEvents() {
     return (
         <>
