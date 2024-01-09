@@ -1,9 +1,25 @@
+import React, { useState } from "react"
+
 export function Encrypt() {
+    const [text, setText] = useState(
+        "This text will change when you type in an input"
+    )
+    const handleWordsChange = (event: any) => {
+        setText(event.target.value)
+    }
     return (
-        <div>
-            <p className={'container text-center m-2 p-2 border-2 border-secondary rounded-lg'} id={'words'}>He was running through mists again. Walls, people, buildings all faded. Nothing but dark, swirling mists. But the mists had never been his enemy. Life as a human being is about posturing and influence. "I am the one thing you can never kill. I am Hope."</p>
-            <button className={'btn btn-xs sm:btn-sm md:btn-md btn-primary m-2'} onClick={HandleEncryption}>Encrypt</button>
-            <p>If you click the button again, it will reset the encryption, as the shift of 13 places is just back to the original form.</p>
+        <div className={"container mx-auto grid grid-cols-2 gap-2"}>
+            <textarea
+                className={'text-black rounded-lg m-2'}
+                onChange={handleWordsChange}
+                placeholder={"Enter text here..."}
+            />
+            <p className={"container text-center m-2 p-2 border-2 border-secondary rounded-lg"} id={'words'}>{text}</p>
+            {/*<p className={'container text-center m-2 p-2 border-2 border-secondary rounded-lg'} id={'words'}>He was running through mists again. Walls, people, buildings all faded. Nothing but dark, swirling mists. But the mists had never been his enemy. Life as a human being is about posturing and influence. "I am the one thing you can never kill. I am Hope."</p>*/}
+            <button className={'btn btn-xs sm:btn-sm md:btn-md btn-primary m-2'} onClick={HandleEncryption}>Encrypt
+            </button>
+            <p>If you click the button again, it will reset the encryption, as the shift of 13 places is just back to
+                the original form.</p>
         </div>
     )
 }
