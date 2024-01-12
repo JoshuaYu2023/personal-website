@@ -14,7 +14,7 @@ export function Encrypt() {
                 onChange={handleWordsChange}
                 placeholder={"Enter text here..."}
             />
-            <p className={"container text-center m-2 p-2 border-2 border-secondary rounded-lg"} id={'words'}>{text}</p>
+            <p className={"container text-center m-2 p-2 border-2 border-primary rounded-lg"} id={'words'}>{text}</p>
             <button className={'btn btn-xs sm:btn-sm md:btn-md btn-primary m-2'} onClick={HandleEncryption}>Encrypt
             </button>
             <p>If you click the button again, it will reset the encryption, as the shift of 13 places is just back to

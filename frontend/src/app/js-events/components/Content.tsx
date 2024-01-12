@@ -5,7 +5,7 @@ import {Encrypt} from "@/app/js-events/components/Encrypt"
 export function Content() {
     return (
         <div>
-            <section className={'container border-2 border-primary mx-auto my-4 px-4'}>
+            <section className={'container border-2 border-green-800 mx-auto my-4 px-4'}>
                 <div className={'my-4'}>
                     <h1 className={'font-bold italic'}>Find and Replace</h1>
                     <p>One thing you can do with JavaScript is take a sentence or paragraph and find specific words,
@@ -16,7 +16,7 @@ export function Content() {
                     <FindAndReplace/>
                 </div>
             </section>
-            <section className={'container border-2 border-primary mx-auto my-4 px-4'}>
+            <section className={'container border-2 border-green-800 mx-auto my-4 px-4'}>
                 <div className={'my-4'}>
                     <h1 className={'font-bold italic'}>Encrypt</h1>
                     <p>An interesting thing you can do with JavaScript is take a sentence or paragraph and encrypt it.
@@ -27,7 +27,7 @@ export function Content() {
                     <Encrypt/>
                 </div>
             </section>
-            <section className={'container border-2 border-primary mx-auto my-4 px-4'}>
+            <section className={'container border-2 border-green-800 mx-auto my-4 px-4'}>
                 <div className={'my-4'}>
                     <h1 className={'font-bold italic'}>Shuffle</h1>
                     <p>Another thing you can do with JavaScript is take a sentence or paragraph and shuffle the order of

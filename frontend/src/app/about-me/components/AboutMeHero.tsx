@@ -2,7 +2,7 @@ export function AboutMeHero() {
     return (
         <div className={"container mx-auto my-4 md:flex gap-12 max-md:space-y-12"}>
             <section className={"md:my-auto md:p-6"}>
-                <img src={"images/me.jpg"} alt={"my wedding photo"} className={"block mx-auto rounded-lg w-60 h-60 ms:w-64 sm:h-64 md:w-72 md:h-72"}/>
+                <img src={"images/headshot(4).jpg"} alt={"official headshot of me"} className={"block mx-auto rounded-lg w-60 h-60 sm:w-64 sm:h-64 md:w-72 md:h-72"}/>
             </section>
             <section className={"basis-5/6 md:p-6"}>
                 <h1 className={"sm:text-sm md:text-lg font-bold p-4"}>About Me</h1>

@@ -25,7 +25,7 @@ export function FindAndReplace () {
                 onChange={handleTextChange}
                 placeholder={"Enter text here..."}
             />
-            <p className={"container text-center m-2 p-2 border-2 border-secondary rounded-lg"}>{text}</p>
+            <p className={"container text-center m-2 p-2 border-2 border-primary rounded-lg"}>{text}</p>
             <div className={"container mx-auto my-2 grid gap-2"}>
                 <label className={'mx-5'} htmlFor={"find-term"}>Find:</label>
                 <input
