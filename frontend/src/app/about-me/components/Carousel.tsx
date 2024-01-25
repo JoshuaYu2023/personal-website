@@ -10,7 +10,7 @@ export function Carousel() {
                               spotify={"https://open.spotify.com/embed/playlist/0uT4uy3DYMzs3h9wkhAbVY?utm_source=generator"}
                               text={'My favorite instrumental artist is Samuel Kim. He takes certain soundtracks from film, TV, anime, and games amd turns them into Epic/Cinematic Arrangements.'}/>
                 <CarouselItem id={'item3'}
-                              spotify={"https://open.spotify.com/embed/track/71HkfiF7Y8eCymdkiVEk69?utm_source=generator"}
+                              spotify={"https://open.spotify.com/embed/track/5w4DNXyuAZhUO4y3erBg9G?utm_source=generator"}
                               text={'My favorite song has always changed over the years, but currently it is this song.'}/>
             </div>
             <CarouselNav/>
