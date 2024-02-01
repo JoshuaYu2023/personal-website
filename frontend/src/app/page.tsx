@@ -2,6 +2,7 @@
 
 import {Navbar} from "@/app/components/Navbar"
 import {ProjectHero} from "@/app/components/ProjectHero";
+import {Footer} from "@/app/components/Footer";
 
 export default function Home() {
     return (
@@ -14,6 +15,7 @@ export default function Home() {
             <ProjectHero image={'/construction.png'} alt={'Under Construction'} link={'/shopping-list'} title={'Shopping List'} description={'A fully functioning shopping list web app. UNDER CONSTRUCTION'}/>
             <ProjectHero image={'/construction.png'} alt={'Under Construction'} link={'/'} title={'New Projects'} description={'Any new portfolio projects I make will go here!'}/>
             {/*TODO: Make ProjectHero's for other projects I will work on. Make a brief description about the landing page*/}
+            <Footer/>
         </>
 
     )
