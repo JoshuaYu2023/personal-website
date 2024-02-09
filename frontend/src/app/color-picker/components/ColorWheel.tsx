@@ -51,11 +51,11 @@ export function ColorWheel() {
         <div className={'grid justify-items-center mx-auto'}>
             <div id="color-box" className={'w-96 h-96 border-2 rounded-full'}></div>
             <div className={'grid justify-items-center mx-auto my-2'}>
-                <input type="number" min="0" max="255" className="w-96" name="red" value={red}
+                <input type="range" min="0" max="255" className="w-96" name="red" value={red}
                        onChange={handleColorChange}/>
-                <input type="number" min="0" max="255" className="w-96" name="green" value={green}
+                <input type="range" min="0" max="255" className="w-96" name="green" value={green}
                        onChange={handleColorChange}/>
-                <input type="number" min="0" max="255" className="w-96" name="blue" value={blue}
+                <input type="range" min="0" max="255" className="w-96" name="blue" value={blue}
                        onChange={handleColorChange}/>
             </div>
             <div>
