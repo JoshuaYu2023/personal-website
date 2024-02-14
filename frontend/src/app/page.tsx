@@ -14,7 +14,6 @@ export default function Home() {
             <ProjectHero image={'/construction.png'} alt={'Under Construction'} link={'/color-picker'} title={'Color Picker'} description={'A color wheel/picker web app. UNDER CONSTRUCTION'}/>
             {/*<ProjectHero image={'/construction.png'} alt={'Under Construction'} link={'/shopping-list'} title={'Shopping List'} description={'A fully functioning shopping list web app. UNDER CONSTRUCTION'}/>*/}
             {/*<ProjectHero image={'/construction.png'} alt={'Under Construction'} link={'/'} title={'New Projects'} description={'Any new portfolio projects I make will go here!'}/>*/}
-            {/*TODO: Make ProjectHero's for other projects I will work on. Make a brief description about the landing page*/}
             <Footer/>
         </>
 
