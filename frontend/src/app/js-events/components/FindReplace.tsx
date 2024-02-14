@@ -19,28 +19,28 @@ export function FindAndReplace () {
         setReplaceTerm(event.target.value)
     }
     return (
-        <div className={"container mx-auto grid grid-cols-2 gap-2"}>
+        <div className={'container mx-auto grid grid-cols-2 gap-2'}>
             <textarea
                 className={'text-black rounded-lg m-2'}
                 onChange={handleTextChange}
                 placeholder={"Enter text here..."}
             />
-            <p className={"container text-center m-2 p-2 border-2 border-primary rounded-lg"}>{text}</p>
-            <div className={"container mx-auto my-2 grid gap-2"}>
+            <p className={'container text-center m-2 p-2 border-2 border-primary rounded-lg'}>{text}</p>
+            <div className={'container mx-auto my-2 grid gap-2'}>
                 <label className={'mx-5'} htmlFor={"find-term"}>Find:</label>
                 <input
                     className={'text-black w-40 sm:w-auto rounded-lg m-2'}
-                    type={"text"}
-                    id={"find-term"}
+                    type={'text'}
+                    id={'find-term'}
                     value={findTerm}
                     onChange={handleFindTermChange}
                     placeholder={""}
                 />
-                <label className={'mx-5'} htmlFor={"replace-term"}>Replace with:</label>
+                <label className={'mx-5'} htmlFor={'replace-term'}>Replace with:</label>
                 <input
                     className={'text-black w-40 sm:w-auto rounded-lg m-2'}
-                    type={"text"}
-                    id={"replace-term"}
+                    type={'text'}
+                    id={'replace-term'}
                     value={replaceTerm}
                     onChange={handleReplaceTermChange}
                     placeholder={""}

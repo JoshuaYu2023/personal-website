@@ -2,9 +2,9 @@ import Link from "next/link"
 
 export function Anime() {
     return (
-        <section className={"md:p-6"}>
-            <h2 className={"text-lg font-bold text-center p-4"}>ANIME</h2>
-            <div className={"grid grid-cols-3 m-8 p-2 gap-10"}>
+        <section className={'md:p-6'}>
+            <h2 className={'text-lg font-bold text-center p-4'}>ANIME</h2>
+            <div className={'grid grid-cols-3 m-8 p-2 gap-10'}>
                 <AnimePic link={'https://en.wikipedia.org/wiki/One_Piece'} pic={'images/one-piece.jpg'}
                           alt={'One Piece'}/>
                 <AnimePic link={'https://en.wikipedia.org/wiki/Fullmetal_Alchemist:_Brotherhood'}
@@ -38,6 +38,6 @@ type AnimePicProps = {
 function AnimePic({link, pic, alt}: AnimePicProps) {
     return (
         <Link href={link} target={"_blank"} rel={"noreferrer noopener"}>
-            <img src={pic} alt={alt} className={"w-20 h-20 sm:w-32 sm:h-32 md:w-40 md:h-40 animate-wiggle-more animate-infinite animate-ease-linear animate-normal"}/></Link>
+            <img src={pic} alt={alt} className={'w-20 h-20 sm:w-32 sm:h-32 md:w-40 md:h-40 animate-wiggle-more animate-infinite animate-ease-linear animate-normal'}/></Link>
     )
 }

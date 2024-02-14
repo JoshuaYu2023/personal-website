@@ -13,7 +13,7 @@ export default function Home() {
             <ProjectHero image={'/js-events.png'} alt={'Under Construction'} link={'/js-events'} title={'JavaScript Events'} description={'A web page that depicts different functions that can be created with JavaScript.'}/>
             <ProjectHero image={'/construction.png'} alt={'Under Construction'} link={'/color-picker'} title={'Color Picker'} description={'A color wheel/picker web app. UNDER CONSTRUCTION'}/>
             {/*<ProjectHero image={'/construction.png'} alt={'Under Construction'} link={'/shopping-list'} title={'Shopping List'} description={'A fully functioning shopping list web app. UNDER CONSTRUCTION'}/>*/}
-            {/*<ProjectHero image={'/construction.png'} alt={'Under Construction'} link={'/'} title={'New Projects'} description={'Any new portfolio projects I make will go here!'}/>*/}
+            {/*<ProjectHero image={'/construction.png'} alt={'Under Construction'} link={'/'} title={'New Projects'} description={'Any new portfolio projects I make will go here!'} />*/}
             <Footer/>
         </>
 

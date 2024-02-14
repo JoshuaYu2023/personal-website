@@ -14,7 +14,7 @@ export function Shuffle() {
                 onChange={handleContentChange}
                 placeholder={"Enter text here..."}
             />
-            <p className={"container text-center m-2 p-2 border-2 border-primary rounded-lg"} id={"text"}>{content}</p>
+            <p className={'container text-center m-2 p-2 border-2 border-primary rounded-lg'} id={'text'}>{content}</p>
             <button className={'btn btn-xs sm:btn-sm md:btn-md btn-primary m-2'} onClick={HandleShuffle}>Shuffle Text
             </button>
             {/*TODO: MAKE A RESET BUTTON */}
