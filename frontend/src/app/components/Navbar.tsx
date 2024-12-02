@@ -17,6 +17,7 @@ export function Navbar() {
                                 <li><Link href={'/about-me'}>About Me</Link></li>
                                 <li><Link href={'/js-events'}>JavaScript Events</Link></li>
                                 <li><Link href={'/color-picker'}>Color Picker</Link></li>
+                                <li><Link href={'https://coffee.inhale.design/'} target={'_blank'} rel={'noreferrer noopener'}>Valid Coffee</Link></li>
                                 {/*<li><Link href={'/shopping-list'}>Shopping List</Link></li>*/}
                             </ul>
                         </details>
